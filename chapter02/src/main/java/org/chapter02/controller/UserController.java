@@ -1,17 +1,14 @@
-package com.example.controller;
+package org.chapter02.controller;
 
-import com.example.bean.User;
-import com.example.bean.UserPagingAndSortingRepository;
-import com.example.bean.UserRepository;
+import org.chapter02.bean.User;
+import org.chapter02.bean.UserPagingAndSortingRepository;
+import org.chapter02.bean.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.LinkedList;
 
 @Controller
 @RequestMapping(path = "/demo")
